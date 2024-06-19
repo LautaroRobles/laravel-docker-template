@@ -7,11 +7,10 @@
 
 #### Iniciar
 ```bash
-cp .env.example .env
+cp src/.env.example src/.env
 just run composer install
 just run npm install
 just run php artisan key:generate
 just run php artisan migrate
-just run php seed
 just dev
 ```
