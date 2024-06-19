@@ -4,10 +4,7 @@
 
 #### Iniciar
 ```bash
-docker compose up --build -d
-```
-
-#### Detener
-```bash
-docker compose down
+just run composer install
+just run npm install
+just run
 ```

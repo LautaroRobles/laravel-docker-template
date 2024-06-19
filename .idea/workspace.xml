@@ -1,69 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="3f401708-b843-422b-a22f-cf62b99fc13c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/laravel.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.env.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/Http/Controllers/Controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/Models/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/artisan" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bootstrap/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bootstrap/cache/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bootstrap/providers.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/cache.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/filesystems.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/logging.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/mail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/queue.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/services.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/session.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/database/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/database/factories/UserFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/database/migrations/0001_01_01_000000_create_users_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/database/migrations/0001_01_01_000001_create_cache_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/database/migrations/0001_01_01_000002_create_jobs_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/database/seeders/DatabaseSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/views/welcome.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/console.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/web.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/storage/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/storage/app/public/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/storage/framework/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/storage/framework/cache/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/storage/framework/cache/data/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/storage/framework/sessions/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/storage/framework/testing/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/storage/framework/views/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/storage/logs/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/Feature/ExampleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/TestCase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/Unit/ExampleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vite.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,15 +146,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner configuration_file="$PROJECT_DIR$/src/phpunit.xml" scope="XML" use_alternative_configuration_file="true" />
@@ -233,6 +182,7 @@
       <updated>1718767337258</updated>
       <workItem from="1718767340652" duration="22000" />
       <workItem from="1718767372021" duration="26000" />
+      <workItem from="1718767408590" duration="1223000" />
     </task>
     <servers />
   </component>

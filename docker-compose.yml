@@ -2,7 +2,12 @@ services:
     laravel:
         container_name: laravel
         image: laravel
-        build: .
+        build:
+            context: .
+            args:
+                - UNAME
+                - UID
+                - GID
         command: bash -c "php artisan serve --host 0.0.0.0"
         ports:
             - "127.0.0.1:8000:8000"
