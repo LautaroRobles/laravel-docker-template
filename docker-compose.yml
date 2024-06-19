@@ -11,6 +11,7 @@ services:
         command: bash -c "php artisan serve --host 0.0.0.0"
         ports:
             - "127.0.0.1:8000:8000"
+        user: "${UID}:${GID}"
         volumes:
             - ./src:/src
 
