@@ -1,6 +1,9 @@
-# Titulo
-
 ## Quickstart
+
+#### Requisitos
+
+- Just
+- Docker
 
 #### Iniciar
 ```bash

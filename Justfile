@@ -6,4 +6,4 @@ _default:
     @just --list --unsorted
 
 run *arguments:
-	UNAME=$USER UID=$(id -u) GID=$(id -g) {{docker}} compose run -it --build --service-ports laravel {{arguments}}
+	UNAME=$USER UID=$(id -u) GID=$(id -g) {{docker}} compose run -it --service-ports laravel {{arguments}}
