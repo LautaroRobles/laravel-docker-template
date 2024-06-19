@@ -1,0 +1,14 @@
+services:
+    laravel:
+        container_name: laravel
+        image: laravel
+        build: .
+        command: bash -c "php artisan serve --host 0.0.0.0"
+        ports:
+            - "127.0.0.1:8000:8000"
+        volumes:
+            - ./src:/src
+
+volumes:
+    vendor:
+    node_modules:
