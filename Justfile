@@ -5,5 +5,10 @@ docker := if `groups` =~ "docker" { "docker" } else { "sudo -E docker" }
 _default:
     @just --list --unsorted
 
+# Ejecutar comando en la imagen
 run *arguments:
-	UNAME=$USER UID=$(id -u) GID=$(id -g) {{docker}} compose run -it --service-ports laravel {{arguments}}
+	UNAME=$USER UID=$(id -u) GID=$(id -g) {{docker}} compose run -it laravel {{arguments}}
+
+# Iniciar servidor de desarrollo
+dev:
+	UNAME=$USER UID=$(id -u) GID=$(id -g) {{docker}} compose run -it --service-ports laravel
